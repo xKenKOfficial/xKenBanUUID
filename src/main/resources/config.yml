@@ -1,0 +1,35 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenBanUUID"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji do komendy:
+no_permission: "&4Blad&8: &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz jest offline:
+offline_player: "&4Blad&8: &cTego gracza nie ma na serwerze!"
+
+# Tutaj mozna ustawic wiadomosc, jesli podano za duzo argumentow przy komendzie:
+wrong_args: "&4Blad&8: &cZa duza ilosc argumentow!"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /ban-uuid:
+banuuid_command_usage: "&4Blad&8: &7Poprawne uzycie&8: &b/ban-uuid (nick) (powod)"
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz zostal zbanowany:
+banuuid_add_player: "&8>> &7Gracz &b{GRACZ} &7zostal zbanowany!"
+
+# Tutaj mozna ustawic wiadomosc kick, jesli gracz zostal zbanowany:
+banuuid_kick:
+  - '&8----------&8&l[&cZbanowany&8&l]&8----------'
+  - '&8>> &7Zostales dodany do &4Zbanowany &7przez&8: &c{ADMIN}!'
+  - '&8>> &7Powod bana&8: &c{POWOD}'
+  - '&8>> &7Zlamales regulamin serwera, twoj udzial zostal ograniczony!'
+  - '&8>> &7Jesli to blad, zglos to na naszym serwerze Discord!'
+  - '&8----------&8&l[&cZbanowany&8&l]&8----------'
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /unban-uuid:
+unbanuuid_command_usage: "&4Blad&8: &7Poprawne uzycie&8: &b/unban-uuid (nick)"
+
+# Tutaj mozna ustawic wiadomosc, jesli gracz zostal odbanowany:
+unbanuuid_remove_player: "&8>> &7Gracza &b{GRACZ} &7zostal odbanowany."
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true

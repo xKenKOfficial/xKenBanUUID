@@ -1,0 +1,15 @@
+name: xKenBanUUID
+version: '${project.version}'
+api-version: 1.13
+main: com.github.xKenKOfficial.BanUUID.Basic.Main
+prefix: xKenBanUUID
+author: xKenKOfficial
+authors: [ xKenKOfficial ]
+description: Plugin na banowanie UUID gracza na serwerze.
+website: https://discord.gg/2HDuZrEFTg
+
+commands:
+  ban-uuid:
+    aliases: [blacklist, blacklist-uuid]
+  unban-uuid:
+    aliases: [unblacklist, unblacklist-uuid]
